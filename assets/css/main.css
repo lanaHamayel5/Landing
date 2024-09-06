@@ -5,6 +5,10 @@ body{
     background-color: rgb(107, 224, 224);
 }
 
+.menu{
+    display:none;
+}
+
 .header{
     background-color: rgb(252, 250, 249);
     padding:20px 0;
@@ -62,3 +66,29 @@ body{
     background-color: var(--mainColor);
 
 }
+
+@media screen and (max-width:617px){
+    .header .auth{
+        display:none;
+    }
+}
+
+@media screen and (max-width:992px){
+    .nav{
+        display:none;
+    }
+    .menu{
+        display: block;
+        order:2;
+    }
+
+}
+
+@media screen and (max-width:576px){
+    .container{
+        width: calc(100% - 30px);
+    }
+
+}
+
+
