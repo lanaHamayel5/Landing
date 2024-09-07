@@ -89,6 +89,148 @@ body{
     }
 
 }
+.courses{
+    width:100%;
+}
+
+.courses .row{
+    gap: 40px;
+}
+.courses-items,
+.course-description{
+    width: calc( (100% - 40px) / 2);
+}
+
+.courses-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.course{
+    width: calc( (100% - 20px) / 2);
+    color:white;
+    box-shadow: 5px 5px 15px 0px #969696;
+    border-radius: 10px;
+
+    
+}
+.course-card{
+position: relative;
+box-shadow: 6px 8px 10px white;
+}
+
+.course img{
+    width: 100%;
+    display: flex;
+    filter: brightness(100%);
+
+    /* filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5)); */
+}
+
+.course-info{
+    position:absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:20px 0;
+    align-items: flex-start;
+    font-size:15px ;
+}
+
+.course-info span:first-of-type{
+    background-color: var(--mainColor);
+    padding:6px;
+}
+
+.course-info span:last-of-type{
+    align-self: flex-end;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+
+.course-details h2{
+    font-size: medium;
+    color: #101928;
+    font-family: var(--mainFont);
+    padding: 4px 10px;
+   
+}
+
+.course-details span:first-of-type{
+    align-self: flex-start;
+}
+
+.course-details .row .details{
+    color:#969696;
+    font-size:15px;
+    padding: 10px 10px; 
+}
+.course-details  .row-size{
+  height: 20px;
+  padding-top: 15px;
+}
+
+.course-details .row-flex{
+    justify-content: flex-start;
+    gap:1px;
+    padding-top:10px;
+}
+
+.course-details span:first-of-type{
+    align-self: flex-start;
+    color: var(--mainColor);
+    font-size: 10px;
+    padding: 10px 25px;
+}
+
+.courses-description {
+  width: 40%;
+}
+.courses-description-top {
+    padding-top: 10px;
+    color: var(--mainColor);
+    font-family: var(--subFont);
+}
+.courses-description-title{
+    font-family: var(--mainFont);
+}
+
+.description{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #969696;
+}
+
+.btn{
+    border: 2px solid var(--mainColor);
+    border-radius: 10px;
+    padding: 5.3px 40px;
+    background-color: var(--mainColor);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* section-part */
