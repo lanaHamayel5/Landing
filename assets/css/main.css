@@ -89,6 +89,227 @@ body{
     }
 
 }
+
+.intro {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.intro .words{
+    width:40px;
+    color: var(--mainColor);
+    font-family: var(--subFont);
+    font-size:medium;
+}
+
+.intro .second-word{
+    font-weight: 700;
+}
+
+.intro h1{
+    width:250.32px;
+    color: black;
+    font-size: 35px;
+    font-family: var(--mainFont);
+}
+
+.intro .lorem{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width:500px;
+    font-family:var(--mainFont) ;
+    color:#969696;
+}
+
+.intro .register{
+    border: 2px solid var(--mainColor);
+    padding: 5.3px 30px;
+    color:white;
+    font-weight:500;
+    font-family: var(--subFont);
+    background-color: var(--mainColor);
+    border-radius: 8px;
+
+}
+
+.intro .start img{
+    width: 25px;
+}
+.intro .start .video {
+    align-items: center;
+
+}
+.intro .start .video a{
+    padding-left: 10px;
+    color: black;
+    font-family: var(--subFont);
+    font-weight:500;
+}
+
+.intro .start .items{
+   justify-content: flex-start;
+}
+
+.intro .start .items .video{
+    margin-left: 30px;
+    
+ }
+
+.intro .end img{
+    width:400px;
+    margin:20px;
+}
+
+.course-value{
+    height:200px;
+    background-color:#F5F5F5;
+    padding-top:150px;
+     padding-bottom: 150px;
+}
+.course-value .row{
+    gap:6px;
+}
+
+.course-value .start{
+    width:20%;
+}
+.course-value .start .paragraph-one{
+    color: var(--mainColor);
+    font-family:var(--subFont);
+    font-size: 13px;
+   
+}
+
+.course-value .start .paragraph-two{
+    color: black;
+    font-family: var(--mainFont);
+    font-weight: bold;
+    font-size: xx-large;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+
+.course-value .start .paragraph-three{
+    color:#969696;
+    font-family: var(--mainFont);
+    font-size: 10px;
+}
+.course-value .end{
+    width:70%;
+
+}
+.course-value .end .row{
+    gap:4px;
+}
+
+.course-value .end .first {
+    width: 20%;
+    height:160px;
+    border: 2px solid var(--mainColor);
+    border-radius: 10px;
+    padding: 20px 40px;
+    background-color: var(--mainColor);
+    color: white;
+    font-size:7px; 
+}
+
+.course-value .end .first img{
+    width:30px;
+    height: 30px;
+    border:2px solid white;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+.course-value .end .first h3{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.course-value .end .first p{
+    font-size: 10px;
+    color:#DDDDDD;
+}
+
+.course-value .end .second {
+    width: 20%;
+    height:160px;
+    border: 2px solid var(--mainColor);
+    border-radius: 10px;
+    padding: 20px 40px;
+    background-color: var(--mainColor);
+    color: white;
+    font-size:7px; 
+}
+
+.course-value .end .second img{
+    width:30px;
+    height: 30px;
+    border:2px solid white;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+.course-value .end .second h3{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.course-value .end .second p{
+    font-size: 10px;
+    color:#DDDDDD;
+}
+
+
+.course-value .end .third {
+    width: 20%;
+    height:160px;
+    border: 2px solid var(--mainColor);
+    border-radius: 10px;
+    padding: 20px 40px;
+    background-color: var(--mainColor);
+    color: white;
+    font-size:7px; 
+}
+
+.course-value .end .third img{
+    width:30px;
+    height: 30px;
+    border:2px solid white;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+.course-value .end .third h3{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.course-value .end .third p{
+    font-size: 10px;
+    color:#DDDDDD;
+}
+
+
+
+
+
+
+
+
 .courses{
     width:100%;
 }
