@@ -170,7 +170,7 @@ body{
 }
 .intro .end img{
     max-width: 80%;
-    height: auto;
+    height: 70%;
 }
 
 
@@ -443,8 +443,8 @@ body{
 }
 .select-course .start img {
     margin-top: 30px;
-    width:90%; 
-    height: 100%;
+    width:70%; 
+    height: 60%;
 }
 
 
